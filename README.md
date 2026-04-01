@@ -1,3 +1,3 @@
 DevOps - Engine Application.
 
-<img width="1280" height="720" alt="banner" src="https://github.com/user-attachments/assets/69805979-43f7-41c8-8fc2-3d78cad399c9" />
+<img width="1280" height="720" alt="banner" src="https://github.com/user-attachments/assets/11e603bb-1e51-43c8-8bd3-c23d1c69bf18" />
