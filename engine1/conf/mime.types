@@ -1,3 +1,4 @@
+
 types {
     text/html                             html htm shtml;
     text/css                              css;
@@ -9,7 +10,7 @@ types {
     application/rss+xml                   rss;
 
     text/mathml                           mml;
-    text/plain                            txt json;
+    text/plain                            txt;
     text/vnd.sun.j2me.app-descriptor      jad;
     text/vnd.wap.wml                      wml;
     text/x-component                      htc;
@@ -77,5 +78,6 @@ types {
     video/x-ms-wmv                        wmv;
     video/x-msvideo                       avi;
     video/mp2t                            ts;
-    application/vnd.apple.mpegurl         m3u8;
+    application/vnd.apple.mpegurl         m3u8;  
+            
 }
