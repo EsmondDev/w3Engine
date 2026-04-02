@@ -28,7 +28,7 @@ const config = {
         },{
             app: 'b01',
             mode: 'static',
-            edge: 'rtmp://a00.w3gradle.com/a01/live_360p',
+            edge: 'rtmp://sub.domain.com/a01/live_360p',
             name: 'live'
         },{
             app: 'b01',
@@ -43,7 +43,7 @@ const config = {
         },{
             app: 'b02',
             mode: 'static',
-            edge: 'rtmp://a00.w3gradle.com/a02/live_360p',
+            edge: 'rtmp://sub.domain.com/a02/live_360p',
             name: 'live'
         },{
             app: 'b02',
@@ -58,57 +58,12 @@ const config = {
         },{
             app: 'b03',
             mode: 'static',
-            edge: 'rtmp://a00.w3gradle.com/a03/live_360p',
+            edge: 'rtmp://sub.domain.com/a03/live_360p',
             name: 'live'
         },{
             app: 'b03',
             mode: 'push',
             edge: 'rtmp://localhost:19350/a03/live',
-            appendName: false
-        },{
-            app: 'a04',
-            mode: 'static',
-            edge: 'rtmp://127.0.0.1:5119/live/04-studio',
-            name: 'live'
-        },{
-            app: 'b04',
-            mode: 'static',
-            edge: 'rtmp://a00.w3gradle.com/a04/live_360p',
-            name: 'live'
-        },{
-            app: 'b04',
-            mode: 'push',
-            edge: 'rtmp://localhost:19350/a04/live',
-            appendName: false
-        },{
-            app: 'a05',
-            mode: 'static',
-            edge: 'rtmp://127.0.0.1:5119/live/05-studio',
-            name: 'live'
-        },{
-            app: 'b05',
-            mode: 'static',
-            edge: 'rtmp://a00.w3gradle.com/a05/live_360p',
-            name: 'live'
-        },{
-            app: 'b05',
-            mode: 'push',
-            edge: 'rtmp://localhost:19350/a05/live',
-            appendName: false
-        },{
-            app: 'a06',
-            mode: 'static',
-            edge: 'rtmp://127.0.0.1:5119/live/06-studio',
-            name: 'live'
-        },{
-            app: 'b06',
-            mode: 'static',
-            edge: 'rtmp://a00.w3gradle.com/a06/live_360p',
-            name: 'live'
-        },{
-            app: 'b06',
-            mode: 'push',
-            edge: 'rtmp://localhost:19350/a06/live',
             appendName: false
         }]
     },
@@ -134,33 +89,6 @@ const config = {
             }]
         },{
             rule: "a03/*",
-            model: [{
-                ab: "64k",
-                af: "alimiter",
-                vb: "360k",
-                vs: "640x360",
-                vf: "23"
-            }]
-        },{
-            rule: "a04/*",
-            model: [{
-                ab: "64k",
-                af: "alimiter",
-                vb: "360k",
-                vs: "640x360",
-                vf: "23"
-            }]
-        },{
-            rule: "a05/*",
-            model: [{
-                ab: "64k",
-                af: "alimiter",
-                vb: "360k",
-                vs: "640x360",
-                vf: "23"
-            }]
-        },{
-            rule: "a06/*",
             model: [{
                 ab: "64k",
                 af: "alimiter",
